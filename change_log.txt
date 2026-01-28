@@ -1,0 +1,41 @@
+Hello! this is SlimeStaff! From 1.1.0-1, there will now be change logs!
+
+1.1.0-1:
+    Fixed an input logic glitch where pressing backspace or enter would break the game (props to just awakening for finding this one :P)
+    
+1.1.0-2:
+    Fixed a bunch of logical errors, and added a new cheat!
+    When in the cheat terminal, if you input 420, you'll be able to skip as many rooms you want.
+    
+1.1.0-3:
+    Added colors for the suits, and values for the letter cards in the tutorial!
+    Courtesy of my dear friend Simon!
+
+1.1.0-4:
+    Added compatibility with windows!
+
+1.1.0-5:
+    Fixed compatibility bug with windows and a bug where the 420 cheat wouldn't work if the first action has been done.
+
+1.1.1:
+    Added a new option in the configurations panel:
+        "reset saves" - resets both your saves
+        
+    Added the / command "set":
+        /set [variable] [value]
+        E.g.:
+            /set player.hp 999
+            > will set the player's HP to 999
+    
+    Added the / command "exec":
+        /exec [code]
+        E.g.:
+            /exec globals()["difficulty"] = "normal"
+            > will set the difficulty to normal
+
+1.1.1-1:
+    Changed the option to discard the weapon from 1 to 2
+
+1.1.1-2:
+    Reworked card print system. Now, more cards can fit in the screen!
+        
